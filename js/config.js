@@ -14,7 +14,7 @@ const CONFIG = {
 
     // Form Configuration
     form: {
-        scriptURL: 'your-google-apps-script-url-here', // Replace with your actual URL
+        scriptURL: 'https://script.google.com/macros/s/AKfycbyyyk-POxTbtyc8F6Oa8fpwWbzM7-reU8PSpKBL7GqPB2zuCk2LBqeBFvm8JWygGdKSog/exec', // Replace with your actual URL
         thankYouPage: 'https://www.mentedigitalqro.com/gracias', // Replace with your thank you page
         fields: {
             name: { required: true, label: "Tu Nombre" },
