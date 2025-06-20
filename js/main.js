@@ -196,7 +196,7 @@ class WebsiteManager {
             }
 
             // Submit to Google Apps Script or your endpoint
-            if (CONFIG.form.scriptURL && CONFIG.form.scriptURL !== 'your-google-apps-script-url-here') {
+            if (CONFIG.form.scriptURL && CONFIG.form.scriptURL !== 'https://script.google.com/macros/s/AKfycbyyyk-POxTbtyc8F6Oa8fpwWbzM7-reU8PSpKBL7GqPB2zuCk2LBqeBFvm8JWygGdKSog/exec') {
                 const response = await fetch(CONFIG.form.scriptURL, {
                     method: 'POST',
                     mode: 'no-cors',
